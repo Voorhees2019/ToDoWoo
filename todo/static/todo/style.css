@@ -1,0 +1,7 @@
+body{
+    background: aliceblue;
+}
+nav.navbar li.nav-item a.nav-link,
+nav.navbar a.navbar-brand{
+    color: white;
+}
