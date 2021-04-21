@@ -3,3 +3,5 @@ venv/
 *.pyc
 .idea/
 *.sqlite3
+local_settings.py
+
