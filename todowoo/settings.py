@@ -134,3 +134,8 @@ LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/current'
 
 django_heroku.settings(locals())
+
+try:
+    from .local_settings import *
+except ImportError:
+    print(f'Looks like no local file. You must be on production')
